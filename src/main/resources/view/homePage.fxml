@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="457.0" prefWidth="701.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controller.HomePageController">
+   <children>
+      <Label layoutX="213.0" layoutY="35.0" text="Customer Form" textFill="#2f3640">
+         <font>
+            <Font name="System Bold" size="38.0" />
+         </font>
+      </Label>
+      <JFXButton layoutX="235.0" layoutY="140.0" onAction="#btnOnActionAdd" prefHeight="46.0" prefWidth="230.0" style="-fx-background-color: #fbc531; -fx-background-radius: 30;" text="ADD" textFill="#2f3640">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="236.0" layoutY="342.0" onAction="#btnOnaActionView" prefHeight="46.0" prefWidth="230.0" style="-fx-background-color: #fbc531; -fx-background-radius: 30;" text="View" textFill="#2f3640">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="236.0" layoutY="205.0" onAction="#btnOnActionUpdate" prefHeight="46.0" prefWidth="230.0" style="-fx-background-color: #fbc531; -fx-background-radius: 30;" text="Update" textFill="#2f3640">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="236.0" layoutY="275.0" onAction="#btnOnActionDelete" prefHeight="46.0" prefWidth="230.0" style="-fx-background-color: #fbc531; -fx-background-radius: 30;" text="Delete" textFill="#2f3640">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

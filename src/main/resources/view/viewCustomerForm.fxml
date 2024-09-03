@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import java.lang.String?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="495.0" prefWidth="718.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controller.ViewCustomerFormController">
+   <children>
+      <TableView fx:id="tblCustomer" layoutX="102.0" layoutY="148.0" prefHeight="229.0" prefWidth="546.0" stylesheets="@../CSS/table.css">
+        <columns>
+          <TableColumn fx:id="coId" prefWidth="182.0" text="ID" />
+          <TableColumn fx:id="colName" minWidth="8.0" prefWidth="182.0" text="Name" />
+            <TableColumn fx:id="colAddress" minWidth="8.0" prefWidth="182.0" text="Address" />
+        </columns>
+         <styleClass>
+            <String fx:value="cell" />
+            <String fx:value="chart" />
+            <String fx:value="chart-pie" />
+            <String fx:value="chart-plot-background" />
+            <String fx:value="column-header" />
+            <String fx:value="column-header-background" />
+            <String fx:value="table-view" />
+         </styleClass>
+      </TableView>
+      <Label layoutX="172.0" layoutY="43.0" text="View Customer Form" textFill="#2f3640">
+         <font>
+            <Font name="System Bold" size="38.0" />
+         </font>
+      </Label>
+      <JFXButton layoutX="309.0" layoutY="411.0" onAction="#btnOnactionReload" prefHeight="48.0" prefWidth="132.0" style="-fx-background-color: #fbc531; -fx-background-radius: 30;" text="Reload" textFill="#353b48">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
